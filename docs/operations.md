@@ -133,9 +133,6 @@ the Settings page) is authoritative.
 | `DEFAULT_MAX_INTERVIEWS_PER_FACULTY_PER_DAY` | 12 |
 | `DEFAULT_ALGORITHM` | `optimized` |
 
-(`backend/.env.example` ships `DEFAULT_ALGORITHM=backtracking`, which overrides
-the code default once copied to `.env`.)
-
 `PRIORITY_WEIGHTS` (HARD 1000, HIGH 100, MEDIUM 50, LOW 20, FLEXIBLE 5) and
 `DEFAULT_EVALUATION_METRICS` are structured settings in the same file.
 
