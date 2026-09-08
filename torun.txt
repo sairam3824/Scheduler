@@ -422,7 +422,7 @@ Frontend type check and production build, from the "frontend" folder:
 ================================================================================
 
 By default the backend stores everything in a single SQLite file
-(backend/interview_system.db) so nothing has to be installed. To use
+(backend/academisync.db) so nothing has to be installed. To use
 PostgreSQL instead, create a database and set DATABASE_URL before starting.
 
     ---- WINDOWS (PowerShell) ----
@@ -526,9 +526,9 @@ there. The tables are created automatically on startup.
 
 --- I want to start completely fresh
     From the "backend" folder, delete the database file and reseed:
-        Windows:        del interview_system.db
+        Windows:        del academisync.db
                         .venv\Scripts\python.exe -m scripts.seed --reset
-        macOS / Linux:  rm -f interview_system.db
+        macOS / Linux:  rm -f academisync.db
                         .venv/bin/python -m scripts.seed --reset
 
 
